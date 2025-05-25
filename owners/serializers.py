@@ -3,4 +3,5 @@ from .models import Owner
 
 class OwnerSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Ownerfields = '__all__'
+        model = Owner
+        fields = '__all__'
